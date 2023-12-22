@@ -1,0 +1,16 @@
+{
+  "id": "5e-random-content-displayer",
+  "title": "5e - Random Content Displayer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "ZiemovitZ",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["scripts/main.js"]
+}
