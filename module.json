@@ -12,5 +12,8 @@
       "flags": {}
     }
   ],
-  "esmodules": ["scripts/main.js"]
+  "esmodules": ["scripts/main.js"],
+  "url": "https://github.com/JBryskiewicz/5e-random-content-displayer",
+  "download": "https://github.com/JBryskiewicz/5e-random-content-displayer/archive/refs/tags/v1.0.zip",
+  "manifest": "https://github.com/JBryskiewicz/5e-random-content-displayer/releases/download/v1.0/module.json"
 }
