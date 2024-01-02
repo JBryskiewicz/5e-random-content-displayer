@@ -26,6 +26,7 @@ function addTokenControlsButton() {
           initializeProgram();
         },
         button: true,
+        visible: game.user.isGM,
       });
     }
   });

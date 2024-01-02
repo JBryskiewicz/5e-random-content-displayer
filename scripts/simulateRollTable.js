@@ -1,4 +1,6 @@
 export const simulateRollTable = async (pages) => {
-  const contentRoll = await new Roll(`2d${pages}`).roll();
-  return Math.floor(contentRoll.total / 2) - 1;
+  const firstDice = await new Roll(`1d${pages}`).roll();
+  const secondDice = await new Roll(`1d${pages + 1}`).roll();
+  const contentRoll = firstDice.total + secondDice.total;
+  return Math.floor(contentRoll / 2) - 1;
 };
